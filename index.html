@@ -10,6 +10,7 @@
 
   <link rel="stylesheet" href="style.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="twitter.js"></script>
 </head>
 
 <body>
@@ -17,8 +18,10 @@
         <h1>Random quote machine</h1>
     </div>
     <div>
-        <h2 id="quoteDisplay">"This is a quote"</h2>
+        <h2 id="quoteDisplay"></h2>
+        <h4 id="authorName"></h4>
         <button id="getQuoteButton">Get a quote</button>
+        <div id="twitterShareDiv"><a class="twitter-share-button" id="twitterShareButton" href="https://twitter.com/intent/tweet?text=Hello%20world">Tweet</a></div>
     </div>
   <script src="script.js"></script>
 </body>
